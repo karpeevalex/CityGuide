@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AKCityViewController.h
 //  CityGuide
 //
 //  Created by Alexander Karpeev on 31.08.17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AKCityViewController : UITableViewController
 
 @end
-

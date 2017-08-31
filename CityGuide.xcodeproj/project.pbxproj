@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		8917D82A1F582215001E7BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8291F582215001E7BCF /* main.m */; };
 		8917D82D1F582215001E7BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D82C1F582215001E7BCF /* AppDelegate.m */; };
-		8917D8301F582215001E7BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D82F1F582215001E7BCF /* ViewController.m */; };
-		8917D8331F582215001E7BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8917D8311F582215001E7BCF /* Main.storyboard */; };
 		8917D8351F582215001E7BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8917D8341F582215001E7BCF /* Assets.xcassets */; };
-		8917D8381F582215001E7BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8917D8361F582215001E7BCF /* LaunchScreen.storyboard */; };
+		8917D8411F58232A001E7BCF /* AKCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8401F58232A001E7BCF /* AKCitiesTableViewController.m */; };
+		8917D8441F5823A0001E7BCF /* AKCities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8431F5823A0001E7BCF /* AKCities.m */; };
+		8917D8471F582507001E7BCF /* AKCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8461F582507001E7BCF /* AKCity.m */; };
+		89EC22651F582D7200003F2F /* AKCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22631F582D7200003F2F /* AKCityCell.m */; };
+		89EC22661F582D7200003F2F /* AKCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC22641F582D7200003F2F /* AKCityCell.xib */; };
+		89EC226C1F5842F900003F2F /* AKCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC226B1F5842F900003F2F /* AKCityViewController.m */; };
+		89EC226E1F5844F500003F2F /* AKCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC226D1F5844F400003F2F /* AKCityView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		8917D8291F582215001E7BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8917D82B1F582215001E7BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8917D82C1F582215001E7BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8917D82E1F582215001E7BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8917D82F1F582215001E7BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8917D8321F582215001E7BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8917D8341F582215001E7BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8917D8371F582215001E7BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8917D8391F582215001E7BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8917D83F1F58232A001E7BCF /* AKCitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCitiesTableViewController.h; sourceTree = "<group>"; };
+		8917D8401F58232A001E7BCF /* AKCitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCitiesTableViewController.m; sourceTree = "<group>"; };
+		8917D8421F5823A0001E7BCF /* AKCities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCities.h; sourceTree = "<group>"; };
+		8917D8431F5823A0001E7BCF /* AKCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCities.m; sourceTree = "<group>"; };
+		8917D8451F582507001E7BCF /* AKCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCity.h; sourceTree = "<group>"; };
+		8917D8461F582507001E7BCF /* AKCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCity.m; sourceTree = "<group>"; };
+		89EC22621F582D7200003F2F /* AKCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKCityCell.h; path = ../AKCityCell.h; sourceTree = "<group>"; };
+		89EC22631F582D7200003F2F /* AKCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKCityCell.m; path = ../AKCityCell.m; sourceTree = "<group>"; };
+		89EC22641F582D7200003F2F /* AKCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AKCityCell.xib; path = ../AKCityCell.xib; sourceTree = "<group>"; };
+		89EC226A1F5842F900003F2F /* AKCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCityViewController.h; sourceTree = "<group>"; };
+		89EC226B1F5842F900003F2F /* AKCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCityViewController.m; sourceTree = "<group>"; };
+		89EC226D1F5844F400003F2F /* AKCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKCityView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +72,19 @@
 			children = (
 				8917D82B1F582215001E7BCF /* AppDelegate.h */,
 				8917D82C1F582215001E7BCF /* AppDelegate.m */,
-				8917D82E1F582215001E7BCF /* ViewController.h */,
-				8917D82F1F582215001E7BCF /* ViewController.m */,
-				8917D8311F582215001E7BCF /* Main.storyboard */,
+				8917D83F1F58232A001E7BCF /* AKCitiesTableViewController.h */,
+				8917D8401F58232A001E7BCF /* AKCitiesTableViewController.m */,
+				89EC22621F582D7200003F2F /* AKCityCell.h */,
+				89EC22631F582D7200003F2F /* AKCityCell.m */,
+				89EC22641F582D7200003F2F /* AKCityCell.xib */,
+				89EC226A1F5842F900003F2F /* AKCityViewController.h */,
+				89EC226B1F5842F900003F2F /* AKCityViewController.m */,
+				89EC226D1F5844F400003F2F /* AKCityView.xib */,
+				8917D8421F5823A0001E7BCF /* AKCities.h */,
+				8917D8431F5823A0001E7BCF /* AKCities.m */,
+				8917D8451F582507001E7BCF /* AKCity.h */,
+				8917D8461F582507001E7BCF /* AKCity.m */,
 				8917D8341F582215001E7BCF /* Assets.xcassets */,
-				8917D8361F582215001E7BCF /* LaunchScreen.storyboard */,
 				8917D8391F582215001E7BCF /* Info.plist */,
 				8917D8281F582215001E7BCF /* Supporting Files */,
 			);
@@ -138,9 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8917D8381F582215001E7BCF /* LaunchScreen.storyboard in Resources */,
+				89EC22661F582D7200003F2F /* AKCityCell.xib in Resources */,
 				8917D8351F582215001E7BCF /* Assets.xcassets in Resources */,
-				8917D8331F582215001E7BCF /* Main.storyboard in Resources */,
+				89EC226E1F5844F500003F2F /* AKCityView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,32 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8917D8301F582215001E7BCF /* ViewController.m in Sources */,
+				89EC22651F582D7200003F2F /* AKCityCell.m in Sources */,
+				8917D8471F582507001E7BCF /* AKCity.m in Sources */,
 				8917D82D1F582215001E7BCF /* AppDelegate.m in Sources */,
+				8917D8411F58232A001E7BCF /* AKCitiesTableViewController.m in Sources */,
+				89EC226C1F5842F900003F2F /* AKCityViewController.m in Sources */,
+				8917D8441F5823A0001E7BCF /* AKCities.m in Sources */,
 				8917D82A1F582215001E7BCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8917D8311F582215001E7BCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8917D8321F582215001E7BCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8917D8361F582215001E7BCF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8917D8371F582215001E7BCF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8917D83A1F582215001E7BCF /* Debug */ = {
@@ -314,6 +319,7 @@
 				8917D83E1F582215001E7BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
