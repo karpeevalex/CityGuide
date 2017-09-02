@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Qti-xC-JHf" customClass="AKItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QyA-YO-cnT">
+                        <rect key="frame" x="10" y="10" width="180" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="UC4-Bz-rDg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hotel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOh-va-1On">
+                        <rect key="frame" x="79" y="140" width="41" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cost" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iS8-dK-6j6">
+                        <rect key="frame" x="20" y="169" width="36" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$150-350" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCW-Kp-BJB">
+                        <rect key="frame" x="103" y="170" width="77" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" none="YES"/>
+                        </accessibility>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="QyA-YO-cnT" firstAttribute="top" secondItem="Qti-xC-JHf" secondAttribute="top" constant="10" id="LRz-TA-EFL"/>
+                <constraint firstItem="YOh-va-1On" firstAttribute="centerX" secondItem="Qti-xC-JHf" secondAttribute="centerX" id="NIg-9R-WZV"/>
+                <constraint firstAttribute="trailing" secondItem="QyA-YO-cnT" secondAttribute="trailing" constant="10" id="cMZ-XU-sO9"/>
+                <constraint firstItem="YOh-va-1On" firstAttribute="top" secondItem="QyA-YO-cnT" secondAttribute="bottom" constant="10" id="oxl-Jm-9tu"/>
+                <constraint firstItem="QyA-YO-cnT" firstAttribute="leading" secondItem="Qti-xC-JHf" secondAttribute="leading" constant="10" id="yTX-4e-tCF"/>
+            </constraints>
+            <connections>
+                <outlet property="costNameLabel" destination="iS8-dK-6j6" id="cd9-3B-RS6"/>
+                <outlet property="costValueLabel" destination="iCW-Kp-BJB" id="yf3-6V-khi"/>
+                <outlet property="mainImageView" destination="QyA-YO-cnT" id="Cvk-bM-OQB"/>
+                <outlet property="titleLabel" destination="YOh-va-1On" id="GoO-OS-haf"/>
+            </connections>
+            <point key="canvasLocation" x="-68" y="-69"/>
+        </collectionViewCell>
+    </objects>
+</document>

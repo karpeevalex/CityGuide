@@ -16,35 +16,40 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     AKCitiesTableViewController *citiesViewController = [[AKCitiesTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    
-    self.window.rootViewController = citiesViewController;
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:citiesViewController];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
 
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    
+- (void)applicationWillResignActive:(UIApplication *)application
+{
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    }
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
 }
 
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
 }
 
 
-- (void)applicationWillTerminate:(UIApplication *)application {
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+}
+
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
 }
 
 

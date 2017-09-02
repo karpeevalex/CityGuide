@@ -13,7 +13,5 @@
 @interface AKCities : NSObject
 
 @property (nonatomic) NSArray *allCities;
-@property (nonatomic) AKCity *currentCity;
-
 
 @end

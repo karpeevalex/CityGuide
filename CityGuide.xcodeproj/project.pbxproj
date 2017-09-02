@@ -13,10 +13,16 @@
 		8917D8411F58232A001E7BCF /* AKCitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8401F58232A001E7BCF /* AKCitiesTableViewController.m */; };
 		8917D8441F5823A0001E7BCF /* AKCities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8431F5823A0001E7BCF /* AKCities.m */; };
 		8917D8471F582507001E7BCF /* AKCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917D8461F582507001E7BCF /* AKCity.m */; };
-		89EC22651F582D7200003F2F /* AKCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22631F582D7200003F2F /* AKCityCell.m */; };
-		89EC22661F582D7200003F2F /* AKCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC22641F582D7200003F2F /* AKCityCell.xib */; };
 		89EC226C1F5842F900003F2F /* AKCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC226B1F5842F900003F2F /* AKCityViewController.m */; };
-		89EC226E1F5844F500003F2F /* AKCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC226D1F5844F400003F2F /* AKCityView.xib */; };
+		89EC22711F5AB89F00003F2F /* AKItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22701F5AB89F00003F2F /* AKItemsViewController.m */; };
+		89EC22731F5ABDDA00003F2F /* AKItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC22721F5ABDDA00003F2F /* AKItemCell.xib */; };
+		89EC22761F5AC01100003F2F /* AKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22751F5AC01100003F2F /* AKItem.m */; };
+		89EC22791F5ACC5C00003F2F /* AKItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22781F5ACC5C00003F2F /* AKItemCell.m */; };
+		89EC227D1F5ADAD400003F2F /* AKCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC227B1F5ADAD400003F2F /* AKCityCell.m */; };
+		89EC227E1F5ADAD400003F2F /* AKCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EC227C1F5ADAD400003F2F /* AKCityCell.xib */; };
+		89EC22801F5ADDCA00003F2F /* sityGuide.sql in Resources */ = {isa = PBXBuildFile; fileRef = 89EC227F1F5ADDCA00003F2F /* sityGuide.sql */; };
+		89EC22831F5ADE8100003F2F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EC22821F5ADE8100003F2F /* libsqlite3.tbd */; };
+		89EC22891F5ADF1B00003F2F /* AKDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EC22881F5ADF1B00003F2F /* AKDBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +38,22 @@
 		8917D8431F5823A0001E7BCF /* AKCities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCities.m; sourceTree = "<group>"; };
 		8917D8451F582507001E7BCF /* AKCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCity.h; sourceTree = "<group>"; };
 		8917D8461F582507001E7BCF /* AKCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCity.m; sourceTree = "<group>"; };
-		89EC22621F582D7200003F2F /* AKCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AKCityCell.h; path = ../AKCityCell.h; sourceTree = "<group>"; };
-		89EC22631F582D7200003F2F /* AKCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKCityCell.m; path = ../AKCityCell.m; sourceTree = "<group>"; };
-		89EC22641F582D7200003F2F /* AKCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AKCityCell.xib; path = ../AKCityCell.xib; sourceTree = "<group>"; };
 		89EC226A1F5842F900003F2F /* AKCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCityViewController.h; sourceTree = "<group>"; };
 		89EC226B1F5842F900003F2F /* AKCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCityViewController.m; sourceTree = "<group>"; };
-		89EC226D1F5844F400003F2F /* AKCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKCityView.xib; sourceTree = "<group>"; };
+		89EC226F1F5AB89F00003F2F /* AKItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKItemsViewController.h; sourceTree = "<group>"; };
+		89EC22701F5AB89F00003F2F /* AKItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKItemsViewController.m; sourceTree = "<group>"; };
+		89EC22721F5ABDDA00003F2F /* AKItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKItemCell.xib; sourceTree = "<group>"; };
+		89EC22741F5AC01100003F2F /* AKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKItem.h; sourceTree = "<group>"; };
+		89EC22751F5AC01100003F2F /* AKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKItem.m; sourceTree = "<group>"; };
+		89EC22771F5ACC5C00003F2F /* AKItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKItemCell.h; sourceTree = "<group>"; };
+		89EC22781F5ACC5C00003F2F /* AKItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKItemCell.m; sourceTree = "<group>"; };
+		89EC227A1F5ADAD400003F2F /* AKCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCityCell.h; sourceTree = "<group>"; };
+		89EC227B1F5ADAD400003F2F /* AKCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKCityCell.m; sourceTree = "<group>"; };
+		89EC227C1F5ADAD400003F2F /* AKCityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKCityCell.xib; sourceTree = "<group>"; };
+		89EC227F1F5ADDCA00003F2F /* sityGuide.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sityGuide.sql; sourceTree = "<group>"; };
+		89EC22821F5ADE8100003F2F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		89EC22871F5ADF1B00003F2F /* AKDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDBManager.h; sourceTree = "<group>"; };
+		89EC22881F5ADF1B00003F2F /* AKDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EC22831F5ADE8100003F2F /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +73,7 @@
 			children = (
 				8917D8271F582215001E7BCF /* CityGuide */,
 				8917D8261F582215001E7BCF /* Products */,
+				89EC22811F5ADE8100003F2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,17 +92,26 @@
 				8917D82C1F582215001E7BCF /* AppDelegate.m */,
 				8917D83F1F58232A001E7BCF /* AKCitiesTableViewController.h */,
 				8917D8401F58232A001E7BCF /* AKCitiesTableViewController.m */,
-				89EC22621F582D7200003F2F /* AKCityCell.h */,
-				89EC22631F582D7200003F2F /* AKCityCell.m */,
-				89EC22641F582D7200003F2F /* AKCityCell.xib */,
 				89EC226A1F5842F900003F2F /* AKCityViewController.h */,
 				89EC226B1F5842F900003F2F /* AKCityViewController.m */,
-				89EC226D1F5844F400003F2F /* AKCityView.xib */,
+				89EC226F1F5AB89F00003F2F /* AKItemsViewController.h */,
+				89EC22701F5AB89F00003F2F /* AKItemsViewController.m */,
+				89EC227A1F5ADAD400003F2F /* AKCityCell.h */,
+				89EC227B1F5ADAD400003F2F /* AKCityCell.m */,
+				89EC227C1F5ADAD400003F2F /* AKCityCell.xib */,
+				89EC22771F5ACC5C00003F2F /* AKItemCell.h */,
+				89EC22781F5ACC5C00003F2F /* AKItemCell.m */,
+				89EC22721F5ABDDA00003F2F /* AKItemCell.xib */,
 				8917D8421F5823A0001E7BCF /* AKCities.h */,
 				8917D8431F5823A0001E7BCF /* AKCities.m */,
 				8917D8451F582507001E7BCF /* AKCity.h */,
 				8917D8461F582507001E7BCF /* AKCity.m */,
+				89EC22741F5AC01100003F2F /* AKItem.h */,
+				89EC22751F5AC01100003F2F /* AKItem.m */,
 				8917D8341F582215001E7BCF /* Assets.xcassets */,
+				89EC22871F5ADF1B00003F2F /* AKDBManager.h */,
+				89EC22881F5ADF1B00003F2F /* AKDBManager.m */,
+				89EC227F1F5ADDCA00003F2F /* sityGuide.sql */,
 				8917D8391F582215001E7BCF /* Info.plist */,
 				8917D8281F582215001E7BCF /* Supporting Files */,
 			);
@@ -97,6 +124,14 @@
 				8917D8291F582215001E7BCF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89EC22811F5ADE8100003F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EC22821F5ADE8100003F2F /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EC22661F582D7200003F2F /* AKCityCell.xib in Resources */,
+				89EC227E1F5ADAD400003F2F /* AKCityCell.xib in Resources */,
+				89EC22731F5ABDDA00003F2F /* AKItemCell.xib in Resources */,
+				89EC22801F5ADDCA00003F2F /* sityGuide.sql in Resources */,
 				8917D8351F582215001E7BCF /* Assets.xcassets in Resources */,
-				89EC226E1F5844F500003F2F /* AKCityView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,13 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89EC22651F582D7200003F2F /* AKCityCell.m in Sources */,
+				89EC22791F5ACC5C00003F2F /* AKItemCell.m in Sources */,
 				8917D8471F582507001E7BCF /* AKCity.m in Sources */,
 				8917D82D1F582215001E7BCF /* AppDelegate.m in Sources */,
+				89EC22761F5AC01100003F2F /* AKItem.m in Sources */,
+				89EC227D1F5ADAD400003F2F /* AKCityCell.m in Sources */,
 				8917D8411F58232A001E7BCF /* AKCitiesTableViewController.m in Sources */,
 				89EC226C1F5842F900003F2F /* AKCityViewController.m in Sources */,
 				8917D8441F5823A0001E7BCF /* AKCities.m in Sources */,
 				8917D82A1F582215001E7BCF /* main.m in Sources */,
+				89EC22891F5ADF1B00003F2F /* AKDBManager.m in Sources */,
+				89EC22711F5AB89F00003F2F /* AKItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

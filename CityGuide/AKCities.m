@@ -16,8 +16,11 @@
     self = [super init];
     if (self)
     {
-        AKCity *city = [[AKCity alloc] initWithName:@"Moscow" mainImage:[UIImage imageNamed:@"moscow"]];
-        _allCities = [[NSArray alloc] initWithObjects:city, nil];
+        _allCities = [[NSArray alloc] initWithObjects:[[AKCity alloc] initWithName:@"Moscow" mainImage:[UIImage imageNamed:@"moscow"]],
+                                                      [[AKCity alloc] initWithName:@"Saint Petersburg" mainImage:[UIImage imageNamed:@"saintpetersburg"]],
+                                                      [[AKCity alloc] initWithName:@"Ekaterinburg" mainImage:[UIImage imageNamed:@"ekaterinburg"]],
+                                                      [[AKCity alloc] initWithName:@"Novosibirsk" mainImage:[UIImage imageNamed:@"novosibirsk"]],
+                                                      nil];
     }
     return self;
 }

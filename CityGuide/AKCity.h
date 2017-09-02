@@ -14,14 +14,13 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *shortDescription;
 @property (nonatomic) UIImage *mainImage;
-@property (nonatomic) NSArray *hotels;
-@property (nonatomic) NSArray *restourants;
-@property (nonatomic) NSArray *events;
-@property (nonatomic) NSArray *sights;
+@property (nonatomic) NSArray *items;
+@property (nonatomic) NSString *typeItems;
+
 
 - (instancetype)initWithName:(NSString *)name mainImage:(UIImage *)mainImage;
 
-
+- (NSArray *)getItemsType:(NSString *)type forCity:(NSString*)name;
 
 
 @end

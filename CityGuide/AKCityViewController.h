@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class AKCity;
+
 @interface AKCityViewController : UITableViewController
+
+@property (nonatomic) AKCity *currentCity;
 
 @end
