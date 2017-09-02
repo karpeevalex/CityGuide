@@ -33,7 +33,7 @@
 - (NSArray *)getItemsType:(NSString *)type forCity:(NSString*)name
 {
     //read data from DB; return array of AKItem*
-    NSString *query = @"select * from item";
+    NSString *query = [NSString stringWithFormat:@"select * from item where type=%@ city=%@", type, name];
     
     self.items = [[NSArray alloc] initWithArray:[self.dbManager loadDataFromDB:query]];
     
